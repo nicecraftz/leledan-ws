@@ -1,0 +1,11 @@
+@import 'tailwindcss';
+@import '@nuxt/ui';
+
+@theme static {
+    --color-background: #1a1612;
+    --color-background-secondary: #2a2622;
+    --color-primary: #D4AF37;
+    --color-secondary: #F4D03F;
+    --color-foreground: #ffffff;
+    --color-text: #ffffff;
+}
