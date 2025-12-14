@@ -33,27 +33,9 @@
             <a href="https://www.youtube.com/@leledan06" target="_blank" rel="noopener" class="underline decoration-primary hover:text-primary font-semibold transition-colors">canale YouTube</a>
             condivido sia video di building dettagliati che avventure coinvolgenti, portando la community dentro il mio processo creativo.
           </p>
-          <div class="grid grid-cols-2 gap-3">
-            <ul class="space-y-1 list-none marker:text-primary">
-              <li>
-                <UIcon name="i-lucide-flower" class="inline-block mr-2 text-primary" /> <span>Foreste lussureggianti</span>
-              </li>
-              <li>
-                <UIcon name="i-lucide-mountain" class="inline-block mr-2 text-primary" /> <span>Montagne mozzafiato</span>
-              </li>
-            </ul>
-            <ul class="space-y-1 list-none marker:text-primary">
-              <li>
-                <UIcon name="i-lucide-building-2" class="inline-block mr-2 text-primary" /> <span>Città medievali</span>
-              </li>
-              <li>
-                <UIcon name="i-lucide-stars" class="inline-block mr-2 text-primary" /> <span>Strutture fantasy</span>
-              </li>
-            </ul>
-          </div>
           <p>Da idee a <span class="text-primary font-bold">Sculture Professionali</span>.</p>
           <p>
-            <span class="font-semibold">La mia missione</span> è ispirare e aiutare altre persone a specializzarsi in questo campo, mostrando le infinite possibilità creative di Minecraft.
+            <span class="font-semibold">La mia missione</span> è ispirare ed aiutare altre persone a specializzarsi in questo campo, mostrando le infinite possibilità creative di Minecraft.
           </p>
         </div>
       </div>
