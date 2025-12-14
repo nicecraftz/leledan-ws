@@ -32,7 +32,7 @@
       <p class="text-lg md:text-2xl text-foreground text-center max-w-2xl font-semibold drop-shadow-lg bg-black/20 rounded-xl px-4 py-2">
         Sono leledan06, costruttore Minecraft che trasforma idee in mondi unici. Creo ambientazioni naturali e strutture creative, condividendo il mio lavoro e ispirando altri a scoprire le possibilità di Minecraft.
       </p>
-      <NuxtLink to="/portfolio"
+      <NuxtLink to="/about"
         class="inline-flex items-center gap-2 text-lg font-black uppercase bg-primary text-black rounded-xl px-8 py-4 shadow-lg shadow-primary/20 hover:bg-secondary hover:text-black transform hover:scale-105 transition-all duration-300"
       >
         <UIcon name="i-lucide-hammer" class="text-xl" />
