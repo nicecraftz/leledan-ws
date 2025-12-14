@@ -57,7 +57,7 @@ let intervalId: number | null = null
 let crossfadeTimeout: number | null = null
 
 const currentBg = computed(() => bgImages[currentBgIndex.value])
-const nextBg = computed(() => (nextBgIndex.value !== null ? bgImages[nextBgIndex.value] : null))
+const nextBg = computed(() => (nextBgIndex.value !== null ? bgImages[nextBgIndex.value] : undefined))
 
 function imgKey(i: number) {
   if (i === 0) return `bg-${currentBgIndex.value}`

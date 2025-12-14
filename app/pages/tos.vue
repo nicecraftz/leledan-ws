@@ -2,7 +2,7 @@
   <div class="min-h-screen bg-background text-text">
     <NavBar class="sticky top-0 z-10 bg-background" />
     <div class="flex items-center justify-center py-6 md:py-10 px-1 md:px-2 mx-5">
-      <div class="w-full max-w-5xl mx-auto bg-background-secondary rounded-xl shadow-lg p-6 md:p-10">
+      <div class="w-full max-w-5xl mx-auto bg-background-secondary rounded-xl shadow-lg p-6 md:p-10 border-2 border-secondary shadow-lg shadow-secondary">
         <h1 class="text-2xl md:text-3xl font-extrabold text-primary mb-8 text-center">Termini di Servizio (TOS)</h1>
         <ol class="space-y-8 text-base md:text-lg">
           <li>
