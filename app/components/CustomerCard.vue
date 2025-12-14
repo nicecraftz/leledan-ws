@@ -1,5 +1,10 @@
 <template>
-  <div class="flex items-center gap-6 p-5 rounded-3xl shadow-lg min-w-64">
+  <a
+    :href="link"
+    target="_blank"
+    rel="noopener noreferrer"
+    class="flex items-center gap-6 p-5 rounded-3xl min-w-64 hover:scale-110 transition-all duration-300 no-underline"
+  >
     <img 
       :src="image" 
       :alt="name" 
@@ -11,7 +16,7 @@
       <span class="text-white font-bold text-base truncate">{{ detail }}</span>
       <span class="text-gray-400 text-sm font-medium mt-2 truncate">{{ counter }}</span>
     </div>
-  </div>
+  </a>
 </template>
 
 <script lang="ts" setup>
@@ -20,6 +25,7 @@
     name: string;
     detail: string;
     counter: string;
+    link: string;
   }>();
 </script>
 

@@ -1,17 +1,28 @@
 <template>
   <div class="min-h-screen bg-background">
     <NavBar class="sticky top-0 z-10 bg-background" />
-    <h1 class="text-3xl md:text-5xl font-bold text-primary tracking-wide mb-3 text-center uppercase py-10">Servizi</h1>
+    <h1 class="text-3xl md:text-5xl font-bold text-primary tracking-wide mb-3 text-center uppercase my-10">Servizi</h1>
 
-
-    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 pb-10 mx-5">
-      <UPricingPlan v-for="plan in plans" :key="plan.title" :title="plan.title" :price="plan.price" :features="plan.features" :badge="plan.badge" variant="soft" :ui="{
-        root: 'bg-background-secondary border-2 border-primary shadow-lg shadow-secondary',
-        title: 'text-secondary font-bold text-xl uppercase',
-        price: 'text-text font-bold text-xl',
-        featureTitle: 'text-text',
-      }" 
-      />
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 py-14 px-6">
+      <div
+        v-for="plan in plans"
+        :key="plan.title"
+        class="transition-transform duration-300 transform hover:scale-105"
+      >
+        <UPricingPlan
+          :title="plan.title"
+          :price="plan.price"
+          :features="plan.features"
+          :badge="plan.badge"
+          variant="soft"
+          :ui="{
+            root: 'bg-background-secondary border-2 border-primary shadow-lg shadow-secondary p-4 md:p-5 lg:p-6 rounded-xl scale-95',
+            title: 'text-secondary font-bold text-lg md:text-xl uppercase',
+            price: 'text-text font-bold text-lg md:text-xl',
+            featureTitle: 'text-text',
+          }"
+        />
+      </div>
     </div>
   </div>
 </template>

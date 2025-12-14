@@ -1,8 +1,8 @@
 <template>
-  <div class="min-h-screen bg-background p-10">
+  <div class="min-h-screen bg-background">
     <NavBar class="sticky top-0 z-10 bg-background" />
     <h1 class="text-3xl md:text-5xl font-bold text-primary tracking-wide mb-3 text-center uppercase my-10">Recensioni</h1>
-    <div class="flex flex-col items-center w-full">
+    <div class="flex flex-col items-center w-full py-10">
       <div class="w-full max-w-3xl flex flex-col items-center gap-8">
         <Review 
           v-for="(review,index) in reviews"

@@ -2,7 +2,7 @@
   <div class="w-full flex justify-center">
     <div
       id="customer"
-      class="flex flex-col md:flex-row items-center justify-center gap-8 w-full max-w-3xl"
+      class="flex flex-col md:flex-row items-center justify-center gap-8 w-full max-w-3xl transition-transform duration-300 hover:scale-105 group"
       :class="reversed ? 'md:flex-row-reverse' : ''"
     >
       <!-- Immagine e dettagli del cliente -->
