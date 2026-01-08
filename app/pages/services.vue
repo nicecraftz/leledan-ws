@@ -31,7 +31,7 @@
 <script lang="ts" setup>
 const plans = [
     {
-      title: "Costruzione",
+      title: "Organiche",
       price: "€50 - €300+",
       features: [ 
         "Sculture personalizzate",
