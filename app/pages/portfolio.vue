@@ -49,7 +49,7 @@
 <script lang="ts" setup>
   import { ref } from 'vue'
 
-  const portfolioCount = ref(45)
+  const portfolioCount = ref(46)
   const popupImg = ref<number|null>(null)
 
   const openPopup = (imgNum: number) => {
